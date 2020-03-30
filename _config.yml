@@ -1,0 +1,19 @@
+title: Carlota Fernández Muñiz
+email: carlota.fernandezmuniz[at]gmail.com
+description: >-
+baseurl: ""
+url: "https://cfmuniz.github.io"
+
+# Social
+github_username:  cfmuniz
+linkedin_username: carlotamuniz
+researchgate_username: Carlota_Muniz
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-avatar
+
+kramdown:
+  parse_block_html: true
