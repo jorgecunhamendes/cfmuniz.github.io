@@ -17,3 +17,13 @@ plugins:
 
 kramdown:
   parse_block_html: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
