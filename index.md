@@ -14,29 +14,31 @@ layout: home
 <hr style="border:0;border-top:1px solid #ddd;margin: 2em 0;" />
 
 ## Education
-- Ph.D. Marine Biology (2019). Rhodes University, South Africa. Thesis available [here](http://hdl.handle.net/10962/75317).
-- *Licenciatura* in Biology (5-year degree, 2012). University of Oviedo, Spain.
+- **Data Analyst with R**. DataCamp, 2018.
+- **Ph.D. Marine Biology**. Rhodes University, South Africa, 2019. Thesis available [here](http://hdl.handle.net/10962/75317).
+- ***Licenciatura* in Biology** (5-year degree). University of Oviedo, Spain, 2012.
 
 ## Courses and Training
 ### Data Analysis
-- [Data Science courses](https://www.datacamp.com/profile/cfmuniz1988).
-- Discovery and Use of Operational Data products and Services. UNESCO/IOC Project Office for IODE. 11 – 15 Mar. 2019. Oostende, Belgium.
-- Ocean Data Management for Researchers. UNESCO/IOC Project Office for IODE. 3 – 7 Dec. 2018. Oostende, Belgium.
-- Data Analysis and Statistical Inference. Duke University, Coursera, 2014.
-- Introduction to Statistics. Udacity, 2013.
+- [Data Science courses](https://www.datacamp.com/profile/cfmuniz1988). DataCamp, 2018 - to present.
+- **Fundamentals of Scalable Data Science**. IBM & Coursera, 2020.
+- **Discovery and Use of Operational Data products and Services**. UNESCO/IOC Project Office for IODE, Belgium, 11 – 15 Mar. 2019.
+- **Ocean Data Management for Researchers**. UNESCO/IOC Project Office for IODE. Belgium, 3 – 7 Dec. 2018.
+- **Data Analysis and Statistical Inference**. Duke University & Coursera, 2014.
+- **Introduction to Statistics**. Udacity, 2013.
 
 ### Sciences
-- Contemporary Issues in Ocean Governance. University of Wollongong Open2study, 2014.
-- Marine and Antarctic Science. University of Tasmania, Open2study, 2014.
-- How Green is that Product? An Introduction to Life Cycle Environmental Assessment. Northwestern University, Coursera, 2014.
-- Marine Megafauna: An introduction to Marine Science and Conservation. Duke University, Coursera, 2014.
-- Computational Molecular Evolution. Technical University of Denmark, Coursera, 2013.
+- **Contemporary Issues in Ocean Governance**. University of Wollongong & Open2study, 2014.
+- **Marine and Antarctic Science**. University of Tasmania & Open2study, 2014.
+- **How Green is that Product? An Introduction to Life Cycle Environmental Assessment**. Northwestern University & Coursera, 2014.
+- **Marine Megafauna: An introduction to Marine Science and Conservation**. Duke University & Coursera, 2014.
+- **Computational Molecular Evolution**. Technical University of Denmark & Coursera, 2013.
 
 ### Diving Certifications
-- Divemaster. CMAS, Spain, 2013.
-- Professional diver, SCUBA and Surface Supplied to 30m diver. Spain, 2010.
-- Basic Life Support Provider, Divers Alert Network (DAN), 2010.
-- Oxygen Provider, Divers Alert Network (DAN), 2010.
+- **Divemaster**. CMAS, Spain, 2013.
+- **Professional diver, SCUBA and Surface Supplied to 30m diver**. Spain, 2010.
+- **Basic Life Support Provider**. Divers Alert Network (DAN), 2010.
+- **Oxygen Provider**. Divers Alert Network (DAN), 2010.
 
 ## Publications
 - **Muñiz, C.** (2019). Large scale spatio-temporal forcing of pelagic-coastal coupling: disentangling the effects of environmental change on intertidal invertebrate recruitment. Ph.D. Thesis, Rhodes University, Apr. 2019. Thesis available [here](http://hdl.handle.net/10962/75317).
@@ -52,8 +54,6 @@ layout: home
 
 ## Fellowships and Awards
 - Ph.D. Fellowship, South African Research Chairs Initiative of the Department of Science and Technology and the National Research Foundation. 01/2016 – 12/2017.
-- Rhodes University Travel and Subsistence Grant. 04/2017.
-- Rhodes University Travel and Subsistence Grant. 04/2016.
 - M.Sc. Fellowship, South African Research Chairs Initiative of the Department of Science and Technology and the National Research Foundation. 06/2014 – 12/2015.
 - Accésit Award of the Spanish Marine Institute for Nutrition and Welfare (INESMA). Research paper *"Agregación larvaria en el océano costero: el rol del comportamiento larvario”*. Weidberg, N., Bueno, J. and **Muñiz, C.** 11/2012.
 
