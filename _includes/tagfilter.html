@@ -1,0 +1,76 @@
+<script>
+
+// all entries with tags
+//  key    the item HTML object
+//  value  list of tags
+const entries = new Map()
+
+// tag class names
+//  key    the tag
+//  value  { enabled: true/false, className: list of class names }
+const tags = new Map()
+
+/**
+ * Apply filtering for the current set of tags.
+ */
+function filterEntries() {
+    entries.forEach( (entryTags, item) => {
+        if (entryTags.some( t => tags.has(t) && tags.get(t).enabled)) {
+            item.style.display='list-item'
+        } else {
+            item.style.display='none'
+        }
+    })
+}
+
+/**
+ * initialize the tag system.
+ *
+ * it looks in the document for tag elements, populates the `tags` Map, and
+ * adds the respective items to the entry list.
+ */
+function initialize() {
+    // find all tags and items that contain them
+    Array.from(document.getElementsByClassName('tag')).forEach( e => {
+        const t = e.innerText
+        const item = e.parentElement.parentElement
+        if (!entries.has(item)) {
+            entries.set(item, [])
+        }
+        const itemTags = entries.get(item)
+        itemTags.push(t)
+        tags.set(t, { enabled: true, className: e.className })
+    })
+    // add list of tags for filtering
+    if (tags.size > 0) {
+      const filterSelectionElement = document.getElementById('tag-filter')
+      filterSelectionElement.style.display='block'
+      tags.forEach( ({ enabled, className }, t) => {
+          const tagId = t.replace(/ /, '-')
+          // the checkbox
+          const checkbox = document.createElement('input')
+          checkbox.id = `tag-filter-check-${tagId}`
+          checkbox.type = 'checkbox'
+          checkbox.checked = true
+          checkbox.addEventListener('change', event => {
+              tags.get(t).enabled = event.target.checked
+              filterEntries()
+          })
+          // the checkbox label
+          const label = document.createElement('label')
+          label.innerText = t
+          label.htmlFor = `tag-filter-check-${tagId}`
+          // the container
+          const container = document.createElement('div')
+          container.className = className // tagClasses.get(t) || 'tag'
+          container.appendChild(checkbox)
+          container.appendChild(label)
+          // append elements to the document
+          filterSelectionElement.appendChild(container)
+      })
+    }
+}
+
+// when the document is loaded, initialize the tag system
+window.addEventListener('DOMContentLoaded', initialize)
+</script>

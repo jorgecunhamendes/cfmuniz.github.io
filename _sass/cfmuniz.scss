@@ -1,0 +1,58 @@
+#tag-filter {
+    margin: 0;
+    padding: 0.5em 0 1em 0;
+    /* make so users can't select the text and the filters will be more like
+     * buttons
+     */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#tag-filter > p {
+    display: inline;
+}
+
+#tag-filter > .tag {
+    display: inline-block;
+    margin: 0 6px 0 0;
+    padding: 0;
+}
+
+#tag-filter > .tag > * {
+    display: inline-block;
+    padding: 2px 6px 2px 0;
+    cursor: pointer;
+}
+
+.tags {
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+
+.tag {
+    padding: 2px 6px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+
+.tag1 {
+    background-color: #fc9;
+    border-color: #c96;
+}
+
+.tag2 {
+    background-color: #9fc;
+    border-color: #6c9;
+}
+
+.tag3 {
+    background-color: #9df;
+    border-color: #69c;
+}

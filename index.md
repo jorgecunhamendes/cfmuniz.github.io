@@ -19,9 +19,15 @@ layout: home
 - ***Licenciatura* in Biology** (5-year degree). University of Oviedo, Spain, 2012.
 
 ## Courses and Training
+
+<div id="tag-filter" style="display: none;">Filter:
+</div>
+
 ### Data Analysis
 - [Data Science courses](https://www.datacamp.com/profile/cfmuniz1988). DataCamp, 2018 - to present.
+  <p class="tags"><span class="tag tag1">tag1</span> <span class="tag tag2">tag2</span></p>
 - **Fundamentals of Scalable Data Science**. IBM & Coursera, 2020.
+  <p class="tags"><span class="tag tag2">tag2</span> <span class="tag tag3">tag3</span></p>
 - **Discovery and Use of Operational Data products and Services**. UNESCO/IOC Project Office for IODE, Belgium, 11 – 15 Mar. 2019.
 - **Ocean Data Management for Researchers**. UNESCO/IOC Project Office for IODE. Belgium, 3 – 7 Dec. 2018.
 - **Data Analysis and Statistical Inference**. Duke University & Coursera, 2014.
